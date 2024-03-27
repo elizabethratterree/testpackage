@@ -1,13 +1,14 @@
-from setuptools import setup
-
+from setuptools import setup, find_packages
 
 setup(
-    name='my_pip_package',
-    version= '0.1.0',
-
-    url='https://github.com/elizabethratterree/testpackage.git',
-    author='Elizabeth Ratterree',
-    author_email='elizabeth.ratterree@my.utsa.edu',
-
-    py_modules=['my_pip_package'],
+    name='testpackage',
+    version='1.0.0',
+    packages=find_packages(),
+    url='https://github.com/elizabethratterree/testpackage',
+    dependency_links=[
+        'git+https://github.com/elizabethratterree/testpackage.git#egg=testpackage-1.0.0'
+    ],
+    install_requires=[
+        # List your dependencies here
+    ],
 )
