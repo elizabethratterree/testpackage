@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+source/__init__.py
+source/testpackage1/__init__.py
+source/testpackage1/example.py
+testpackage.egg-info/PKG-INFO
+testpackage.egg-info/SOURCES.txt
+testpackage.egg-info/dependency_links.txt
+testpackage.egg-info/requires.txt
+testpackage.egg-info/top_level.txt
