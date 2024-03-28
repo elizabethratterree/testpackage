@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+
 def run_setup():
     setup(
         name='testpackage',
