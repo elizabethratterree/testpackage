@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
-
-setup(
-    name='testpackage',
-    version='1.0.1',
-    packages=find_packages(),
-    url='https://github.com/elizabethratterree/testpackage',
-    install_requires=[
-        'testpackage @ git+https://github.com/elizabethratterree/testpackage.git'
-    ],
-)
+def run_setup():
+    setup(
+        name='testpackage',
+        version='1.0.1',
+        packages=['source','source.testpackage1'],
+        download_url='https://github.com/elizabethratterree/testpackage',
+        install_requires=[
+            'testpackage @ git+https://github.com/elizabethratterree/testpackage.git'
+        ],
+    )
