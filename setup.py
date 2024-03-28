@@ -4,7 +4,6 @@ setup(
     name='testpackage',
     version='1.0.0',
     packages=find_packages(),
-    package_data={'testpackage': ['source/testpackage/*', '.git/*']},
     url='https://github.com/elizabethratterree/testpackage',
     install_requires=[
         # List your dependencies here
