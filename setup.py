@@ -10,5 +10,5 @@ setup(
     author='Elizabeth Ratterree',
     author_email='elizabeth.ratterree@my.utsa.edu',
 
-    py_modules=['testpackage1'],
+    packages=find_packages(),
 )
